@@ -47,3 +47,32 @@ Restart Jenkins after the plugin is installed.
 **install sonar swrver on ec2 :**
 
 run sonar.sh script in ec2
+
+**access sonarqube **
+
+{{ip}}:9000
+
+username: admin
+password: admin 
+
+****![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/1eb896ee-e95b-46df-a3e2-73d41d0c2df5)
+
+
+**integrate sonarqube with jenkins**
+
+click my account >> security >> create new token 
+
+
+![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/2f1dbd04-82a1-46a4-b03c-5f48d7a5d3f6)
+
+
+**add token to jenkins**
+
+**Dashboard
+Manage Jenkins
+Credentials
+System
+Global credentials (unrestricted)
+**
+
+![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/ea3e25e0-c824-432e-a071-07e0cb29d838)
