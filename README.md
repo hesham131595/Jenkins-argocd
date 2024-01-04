@@ -16,7 +16,14 @@ run terrafrom apply
 
 run install-jenkins script into EC2
 
-install docker-pipekine and sonar qube plugins :
+**Acceess jenkins:**
+
+1- {{public ip of EC2}}:8080
+2- Administrator password : /var/lib/jenkins/secrets/initialAdminPassword
+
+![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/e641cbdd-e73b-4321-8585-6a5338ac6b88)
+
+**install docker-pipekine and sonar qube plugins :**
 
 Log in to Jenkins.
 Go to Manage Jenkins > Manage Plugins.
@@ -29,12 +36,7 @@ Restart Jenkins after the plugin is installed.
 ![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/efd96903-bb60-47ec-af56-7c6f7a3df7d4)
 
 
-**Acceess jenkins:**
 
-1- {{public ip of EC2}}:8080
-2- Administrator password : /var/lib/jenkins/secrets/initialAdminPassword
-
-![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/e641cbdd-e73b-4321-8585-6a5338ac6b88)
 
 **configure jenkine to get the jenkinsfile frm git**
 
