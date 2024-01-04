@@ -8,3 +8,8 @@ module "ec2" {
   sg_id_op = module.network.sg_id
   
 }
+module "EKS" {
+  
+  source = "./modules/EKS"
+
+}
