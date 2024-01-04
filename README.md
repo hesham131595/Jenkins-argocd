@@ -41,3 +41,9 @@ Restart Jenkins after the plugin is installed.
 **configure jenkine to get the jenkinsfile frm git**
 
 ![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/a6401c31-73d5-45a3-a3e5-a892371fc81e)
+
+
+
+**install sonar swrver on ec2 :**
+
+run sonar.sh script in ec2
