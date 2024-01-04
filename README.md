@@ -16,6 +16,19 @@ run terrafrom apply
 
 run install-jenkins script into EC2
 
+install docker-pipekine and sonar qube plugins :
+
+Log in to Jenkins.
+Go to Manage Jenkins > Manage Plugins.
+In the Available tab, search for "Docker Pipeline".
+Select the plugin and click the Install button.
+Restart Jenkins after the plugin is installed.
+
+![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/f6426216-5e4f-4e31-a85b-4de0796297a9)
+
+![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/efd96903-bb60-47ec-af56-7c6f7a3df7d4)
+
+
 **Acceess jenkins:**
 
 1- {{public ip of EC2}}:8080
