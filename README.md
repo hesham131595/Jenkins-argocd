@@ -36,7 +36,9 @@ Restart Jenkins after the plugin is installed.
 ![image](https://github.com/hesham131595/Jenkins-argocd/assets/93712347/efd96903-bb60-47ec-af56-7c6f7a3df7d4)
 
 
+**Install docker in EC2:**
 
+run docker-install.sh on EC2
 
 **configure jenkine to get the jenkinsfile frm git**
 
